@@ -9,18 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Luke Ware - Web Development Portfolio </title>
+    <title>Luke Ware - Web Developer</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <style>
-    body {
-        padding-top: 70px;
-        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    }
-    </style>
+    <link href="css/business-frontpage.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -50,10 +45,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-<!--                         <a href="#">About</a> -->
+                        <a href="#">About</a>
                     </li>
                     <li>
-<!--                         <a href="#">Contact</a> -->
+                        <a href="#">Work</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -62,48 +60,130 @@
         <!-- /.container -->
     </nav>
 
+    <!-- Image Background Page Header -->
+    <!-- Note: The background image is set within the business-casual.css file. -->
+    <header class="business-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="tagline">Luke Ware</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <!-- Page Content -->
     <div class="container">
 
+        <hr>
+
         <div class="row">
-            <div class="col-lg-12 text-center">
-				<img src="images/luke.jpg" class="img-responsive center-block">
-                <h1>Luke Ware</h1>
-                <p class="lead">Hello World! Welcome to the Web Development Portfolio for Luke Ware. <br> Luke is currently a student in the WebDev program at Seattle University</p>
-				<p class = "lead"> Watch this page grow as Luke learns!</p>
-					
-				</p>
-            </div>
-        </div>
-	 <div class="row">
-            <div class="col-lg-12 text-center">
-                <h3>My Current Work</h3>
-				<ul class="list-unstyled">
-                <li><a href="http://lukeware.github.io/wats1010-product-page">Fake Product Page Design</a></li>
-				<li><a href="http://lukeware.github.io/wats1010-css-zen-garden">CSS ZenGarden</a></li>
-				<li><a href="http://lukeware.github.io/wats1010-embedded-media">Embedded Media</a></li>
-                </ul>
-            </div>
-        </div>
-	
-		 <div class="row">
-            <div class="col-lg-12 text-center">
-                <h3>Contact me</h3>
-				<ul class="list-unstyled">
-                <li><a href="https://twitter.com/lukeware"><i class="glyphicon glyphicon-envelope"></i></a></li>
-                </ul>
-            </div>
-        </div>
+            <div class="col-sm-8">
+                <h2>About Me</h2>
+                <p>Hello World, my name is Luke Ware and I’m someone who loves teaching and learning. I currently work in higher education managing an online course design lab where I also host design workshops and teach teachers about copyright, open educational resources, and tech tools to help make learning better. I’m trained in modern frontend development workflows, and I use GitHub whenever possible as I believe in open and transparent access to code. I’m looking to collaborate with others on great projects and to learn as much as I can about both front and back end development.</p>
 
             </div>
+            <div class="col-sm-4">
+                <h2>Contact Me</h2>
+                <address>
+                    <strong>Bla Bla Bla</strong>
+                    <br>Bla BLA BLAH BLUHGN
+                    <br>BLRBL SOCIAL LINKS
+                    <br>
+                </address>
+                <address>
+                    <abbr title="Phone">P:</abbr>Probably not
+                    <br>
+                    <abbr title="Email">E:</abbr> <a href="mailto:#">LUKEYPOO@WOO.WOO</a>
+                </address>
+            </div>
         </div>
-
         <!-- /.row -->
+
+      <!-- table features -->
+        <!-- Title -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>Sample Work</h3>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Page Features -->
+        <div class="row text-center">
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="../images/css-zen-garden.jpg" alt="">
+                    <div class="caption">
+                        <h3>CSS Zen Garden</h3>
+                        <p>An exploration of CSS, inspired by colorful legos.</p>
+                        <p>
+                            <a href="http://lukeware.github.io/wats1010-css-zen-garden" class="btn btn-primary">View Site</a> <a href="#" class="btn btn-default">More Info</a> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                  <img src="../images/new-book-demo.jpg" alt="">
+                    <div class="caption">
+                        <h3>New Book Demo</h3>
+                        <p>An author new release page featuring leaflet.js</p>
+                        <p>
+                            <a href="http://wats.lukemakesmedia.com/wats1020-final/" class="btn btn-primary">View Site</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="../images/user-science-journal.jpg" alt="">
+                    <div class="caption">
+                        <h3>User Science Blog</h3>
+                        <p>A look into my explorations of user science.</p>
+                        <p>
+                            <a href="http://responserequest.com/warel/author/warel/" class="btn btn-primary">View Site</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="../images/weather-app.jpg" alt="">
+                    <div class="caption">
+                        <h3>Weather App</h3>
+                        <p>A demo of my javascrip and JSON data usage.</p>
+                        <p>
+                            <a href="http://wats.lukemakesmedia.com/wats4000-weather-app/#/" class="btn btn-primary">View Site</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Some rights reserved &copy;. Get in touch!</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
 
     </div>
     <!-- /.container -->
 
-    <!-- jQuery Version 1.11.1 -->
+    <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
